@@ -1,0 +1,15 @@
+<view wx:if="{{list}}">
+  <scroll-view>
+    <block wx:for="{{list.banners}}" wx:for-item="item" wx:for-index="item_key" wx:key="this">
+   <include src="../components/banner/banner.wxml" />
+    </block>
+  </scroll-view>
+  
+
+
+
+</view>
+<view class='nonedata_con' wx:else>
+  <view class='iconfont icon-meiyoushuju- nonedata'></view>
+  <view class='nonedata_text'>亲，还没有数据哦！</view>
+</view>

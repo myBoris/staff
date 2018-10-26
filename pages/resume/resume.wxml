@@ -1,0 +1,9 @@
+<view wx:if="{{list}}">
+</view>
+<view class='nonedata_con' wx:else>
+<view class='iconfont icon-meiyoushuju1 nonedata'></view>
+<view class='nonedata_text'>亲，还没有简历哦！</view>
+<navigator url='../resume/addresume'>
+ <view bindtap="beback" class="add_resume_btn">点击添加</view>
+</navigator>
+</view>

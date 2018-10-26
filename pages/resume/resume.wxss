@@ -1,0 +1,13 @@
+.add_resume_btn{
+  background: #fff;
+  border: 1rpx solid #ccc;
+  height: 30px;
+  line-height: 30px;
+  font-size: 28rpx;
+  width: 200rpx;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+  color: #777;
+  margin-top: 25rpx;
+}

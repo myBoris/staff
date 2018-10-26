@@ -1,0 +1,6 @@
+<view wx:if="{{list}}">
+</view>
+<view class='nonedata_con' wx:else>
+<view class='iconfont icon-meiyoushuju nonedata'></view>
+<view class='nonedata_text'>亲，还没有数据哦！</view>
+</view>
